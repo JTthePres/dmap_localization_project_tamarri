@@ -1,0 +1,1 @@
+/home/lattinone/Documents/dmap_localization_project_tamarri/devel/.private/catkin_tools_prebuild/setup.zsh

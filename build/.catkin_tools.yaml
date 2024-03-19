@@ -1,0 +1,6 @@
+devel_space: /home/lattinone/Documents/dmap_localization_project_tamarri/devel
+install: false
+install_space: /home/lattinone/Documents/dmap_localization_project_tamarri/install
+profile: default
+source_space: /home/lattinone/Documents/dmap_localization_project_tamarri/src
+workspace: /home/lattinone/Documents/dmap_localization_project_tamarri
