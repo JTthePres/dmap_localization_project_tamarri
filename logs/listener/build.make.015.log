@@ -1,0 +1,11 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/listener_node.dir/src/listener_node.cpp.o[0m
+[01m[K/home/lattinone/Documents/dmap_localization_project_tamarri/src/listener/src/listener_node.cpp:[m[K In function ‘[01m[Kvoid mapCallback(const ConstPtr&)[m[K’:
+[01m[K/home/lattinone/Documents/dmap_localization_project_tamarri/src/listener/src/listener_node.cpp:43:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Vector2f coord[m[K’
+   43 |                 Vector2f [01;31m[Kcoord[m[K = Vector2f(j,i);
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/lattinone/Documents/dmap_localization_project_tamarri/src/listener/src/listener_node.cpp:42:26:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Vector2f coord[m[K’ previously declared here
+   42 |                 Vector2f [01;36m[Kcoord[m[K = grid_mapping.grid2world(Vector2f(j,i));
+      |                          [01;36m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/listener_node.dir/build.make:63: CMakeFiles/listener_node.dir/src/listener_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/listener_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

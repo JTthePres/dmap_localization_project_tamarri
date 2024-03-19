@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target listener_node[0m
-[ 16%] [32mBuilding CXX object CMakeFiles/listener_node.dir/src/listener_node.cpp.o[0m
-[ 33%] [32m[1mLinking CXX executable /home/lattinone/Documents/dmap_localization_project_tamarri/devel/.private/listener/lib/listener/listener_node[0m
-[100%] Built target listener_node

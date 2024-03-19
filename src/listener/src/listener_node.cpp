@@ -21,7 +21,7 @@ DMap dmap;
 float max_range=10;
 float resolution;
 float expansion_range=1;
-Canvas canvas;
+
 void mapCallback(const nav_msgs::OccupancyGrid::ConstPtr& msg)
 {
     resolution = msg->info.resolution;
@@ -40,17 +40,13 @@ void mapCallback(const nav_msgs::OccupancyGrid::ConstPtr& msg)
             {
                 ROS_INFO("Occupied cell at (%d, %d)", j, i);
                 Vector2f coord = grid_mapping.grid2world(Vector2f(j,i));
-                //(j * resolution) + origin_x;
-                //float world_y = (i * resolution) + origin_y;
-                //Vector2f ob2 = Vector2f(world_x,world_y);
-                Vector2f ob2 = coord;
-                obstacles.push_back(ob2);
+                obstacles.push_back(coord);
             }
         }
     }
     localizer.setMap(obstacles, resolution, 10);
     map_received = true;
-
+ 
 }
 
 
